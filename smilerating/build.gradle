@@ -1,0 +1,29 @@
+apply plugin: 'com.android.library'
+
+ext {
+    PUBLISH_GROUP_ID = 'com.github.sujithkanna'
+    PUBLISH_ARTIFACT_ID = 'smileyrating'
+    PUBLISH_VERSION = '2.0.0'
+}
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 29
+        versionCode 1
+        versionName PUBLISH_VERSION
+    }
+    lintOptions {
+        abortOnError false
+    }
+    buildToolsVersion '30.0.2'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+}
+
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'

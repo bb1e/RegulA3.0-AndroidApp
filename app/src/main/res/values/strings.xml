@@ -1,0 +1,18 @@
+<resources>
+    <array name="popularidade_tempo">
+        <item>24h</item>
+        <item>Semana</item>
+        <item>Mês</item>
+        <item>Ano</item>
+        <item>Sempre</item>
+    </array>
+
+    <string name="app_name">Regul-A</string>
+
+    <string name="title_activity_login_test">LoginActivityTest</string>
+
+    <string name="deleteThread">Delete Thread</string>
+    <string name="deleteMessage">Delete Message</string>
+    <string name="web_client_id">673196519117-akbha5a23ngsh6kpivflf3s55kgcq72i.apps.googleusercontent.com</string>
+
+</resources>

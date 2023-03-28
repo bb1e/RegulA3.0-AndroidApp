@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.regulapp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- never use dark mode -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/verde_toolbar_avd</item>
+        <item name="colorPrimaryVariant">@color/verde_homepage_profile</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/amarelo_estrategias</item>
+        <item name="colorSecondaryVariant">@color/amarelo_claro</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <!--  <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item> -->
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@color/verde_toolbar_avd</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+</resources>

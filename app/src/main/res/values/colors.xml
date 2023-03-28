@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="amarelo_estrategias">#ffdd55</color>
+    <color name="vermelho_chat">#ff8080</color>
+    <color name="azul_forum">#578fe6</color>
+    <color name="laranja_relatorio">#ff9955</color>
+    <color name="cinza_titulos">#4e4848</color>
+    <color name="toolbar_text">#FFEED7</color>
+    <color name="amarelo_claro">#FFEEAA</color>
+    <color name="verde_toolbar_avd">#abe66c</color>
+    <color name="verde_homepage_profile">#d8eccf</color>
+    <color name="rosa_claro">#FBDDC2</color>
+    <color name="cinza">#E6E6E6</color>
+    <color name="azul_claro">#D7EEF4</color>
+    <color name="vermelho_smiley">#f29a68</color>
+    <color name="rosa">#FFAAAA</color>
+    <color name="roxo">#A47AAB</color>
+    <color name="cinza2">#808080</color>
+    <color name="azul3">#D7EEF4</color>
+
+</resources>

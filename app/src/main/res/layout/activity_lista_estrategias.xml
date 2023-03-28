@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout_lista_estrategias"
+    android:background="@color/amarelo_estrategias"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".ListaEstrategias">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageViewImagemFundo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/lista_estrategia_vestir_img"
+
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="75dp"
+            android:padding="10dp"
+            android:paddingBottom="30dp"
+            android:paddingTop="10dp"
+            android:layout_below="@id/toolbarListaEstrategias"
+            android:background="@drawable/lista_estrategias_background">
+
+            <lib.kingja.switchbutton.SwitchMultiButton
+                android:id="@+id/btnSelecionarTipoEstrategias"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="8dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:selectedColor="@color/cinza_titulos"
+                app:selectedTab="0"
+                app:strokeRadius="14dp"
+                app:strokeWidth="1dp"
+                app:textSize="9pt" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSelecionarTipoEstrategias"
+                tools:layout_editor_absoluteX="10dp"></ListView>
+            <ListView
+                android:id="@+id/listViewRecomendadas"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                android:layout_marginTop="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSelecionarTipoEstrategias"
+                tools:layout_editor_absoluteX="10dp"></ListView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <include
+            android:id="@+id/toolbarListaEstrategias"
+            layout="@layout/toolbar"
+            />
+
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_lista_estrategias"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+</androidx.drawerlayout.widget.DrawerLayout>

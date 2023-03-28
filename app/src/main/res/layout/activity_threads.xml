@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout_forum"
+    android:background="@color/azul_forum"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".forum.ThreadsActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutForum1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="25dp"
+            android:padding="10dp"
+            android:paddingBottom="30dp"
+            android:paddingTop="20dp"
+            android:layout_below="@id/toolbarForum"
+            android:background="@drawable/fundo_forum">
+
+            <EditText
+                android:id="@+id/searchThreads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pesquisa..."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <lib.kingja.switchbutton.SwitchMultiButton
+                android:id="@+id/btnSelecionarProcura"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="8dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/searchThreads"
+                app:selectedColor="@color/azul_forum"
+                app:selectedTab="0"
+                app:strokeRadius="14dp"
+                app:strokeWidth="0.5dp"
+                app:textSize="9pt" />
+
+
+
+
+
+
+            <ListView
+                android:id="@+id/threadsListView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"
+                android:divider="@null"
+                android:dividerHeight="10.0sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSelecionarProcura" />
+
+
+            <ListView
+                android:id="@+id/threadsListViewTop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"
+                android:divider="@null"
+                android:dividerHeight="10.0sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSelecionarProcura" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_alignBottom="@id/layoutForum1">
+
+            <ImageView
+                android:id="@+id/forumNotifications"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/forum_notifications"
+                app:tint="@color/white"
+                android:visibility="gone"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/addThreadButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/forum_add_btn"
+                app:tint="@color/white"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:id="@+id/forumPersonal"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/forum_personal"
+                app:tint="@color/white"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+        <include
+            android:id="@+id/toolbarForum"
+            layout="@layout/toolbar"
+            />
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_forum"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

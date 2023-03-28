@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/menu_home"/>
+        <item
+            android:id="@+id/nav_estrategias"
+            android:title="Estratégias"
+            android:icon="@drawable/menu_lista"/>
+        <item
+            android:id="@+id/nav_estrategias_fav"
+            android:title="Estratégias Favoritas"
+            android:icon="@drawable/menu_estrela"/>
+        <item
+            android:id="@+id/nav_chat"
+            android:title="Chat"
+            android:icon="@drawable/menu_chat"/>
+        <item
+            android:id="@+id/nav_forum"
+            android:title="Fórum"
+            android:icon="@drawable/menu_forum"/>
+        <item
+            android:id="@+id/nav_registo_semanal"
+            android:title="Registo Semanal"
+            android:icon="@drawable/menu_registo_semanal"/>
+
+
+    </group>
+        <item android:title="Perfil">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_profile"
+                        android:title="Perfil"
+                        android:icon="@drawable/menu_profile"/>
+
+                    <item
+                        android:id="@+id/nav_add_crianca"
+                        android:title="Adicionar criança"
+                        android:icon="@drawable/menu_add_crianca"/>
+
+                    <item
+                        android:id="@+id/nav_crianca"
+                        android:title="Trocar de Perfil de Criança"
+                        android:icon="@drawable/menu_trocar"/>
+
+                    <item
+                        android:id="@+id/nav_logout"
+                        android:title="Sair da conta"
+                        android:icon="@drawable/menu_logout"/>
+                </group>
+            </menu>
+
+        </item>
+</menu>

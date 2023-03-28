@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_relatorio_semanal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/laranja_relatorio"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbarRelatorioSemanal"
+            android:layout_marginTop="2dp"
+            android:fillViewport="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bellow_toolbar"
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/noto_sans"
+                    android:textSize="6pt"
+                    android:gravity="center"
+                    android:text="Durante a última semana como avalia a participação do seu filho/a nas seguintes atividades:  "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/noto_sans"
+                        android:gravity="center"
+                        android:text="Não participou"
+                        android:textColor="@color/black"
+                        android:textSize="4.5pt"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/noto_sans"
+                        android:gravity="center"
+                        android:text="totalmente"
+                        android:textColor="@color/black"
+                        android:textSize="4.5pt"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/textView6" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7" >
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/noto_sans"
+                        android:gravity="center"
+                        android:text="Participou"
+                        android:textColor="@color/black"
+                        android:textSize="4.5pt"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/noto_sans"
+                        android:gravity="center"
+                        android:text="totalmente"
+                        android:textColor="@color/black"
+                        android:textSize="4.5pt"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/textView45" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <TextView
+                    android:id="@+id/textViewAv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text="Tomar banho"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
+                    android:layout_marginTop="50dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+                <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/bubbleSeekBarAv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:bsb_auto_adjust_section_mark="true"
+                    app:bsb_hide_bubble="true"
+                    app:bsb_max="5"
+                    app:bsb_min="1"
+                    app:bsb_section_count="4"
+                    app:bsb_second_track_color="@color/laranja_relatorio"
+                    app:bsb_section_text_position="below_section_mark"
+                    app:bsb_seek_step_section="true"
+                    app:bsb_show_section_mark="true"
+                    app:bsb_show_section_text="true"
+                    app:bsb_show_thumb_text="true"
+                    app:bsb_thumb_text_size="10pt"
+                    app:bsb_touch_to_seek="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewAv1" />
+
+                <TextView
+                    android:id="@+id/textViewAv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text="Vestir e despir"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bubbleSeekBarAv1" />
+
+                <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/bubbleSeekBarAv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:bsb_auto_adjust_section_mark="true"
+                    app:bsb_hide_bubble="true"
+                    app:bsb_second_track_color="@color/laranja_relatorio"
+                    app:bsb_max="5"
+                    app:bsb_min="1"
+                    app:bsb_section_count="4"
+                    app:bsb_section_text_position="below_section_mark"
+                    app:bsb_seek_step_section="true"
+                    app:bsb_show_section_mark="true"
+                    app:bsb_show_section_text="true"
+                    app:bsb_show_thumb_text="true"
+                    app:bsb_thumb_text_size="18sp"
+                    app:bsb_touch_to_seek="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewAv2" />
+
+                <TextView
+                    android:id="@+id/textViewAv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text="Alimentação"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bubbleSeekBarAv2" />
+
+                <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/bubbleSeekBarAv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:bsb_auto_adjust_section_mark="true"
+                    app:bsb_hide_bubble="true"
+                    app:bsb_second_track_color="@color/laranja_relatorio"
+                    app:bsb_max="5"
+                    app:bsb_min="1"
+                    app:bsb_section_count="4"
+                    app:bsb_section_text_position="below_section_mark"
+                    app:bsb_seek_step_section="true"
+                    app:bsb_show_section_mark="true"
+                    app:bsb_show_section_text="true"
+                    app:bsb_show_thumb_text="true"
+                    app:bsb_thumb_text_size="18sp"
+                    app:bsb_touch_to_seek="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewAv3" />
+
+                <TextView
+                    android:id="@+id/textViewAv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text="Higiene sanitária"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bubbleSeekBarAv3" />
+
+                <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/bubbleSeekBarAv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:bsb_auto_adjust_section_mark="true"
+                    app:bsb_hide_bubble="true"
+                    app:bsb_second_track_color="@color/laranja_relatorio"
+                    app:bsb_max="5"
+                    app:bsb_min="1"
+                    app:bsb_section_count="4"
+                    app:bsb_section_text_position="below_section_mark"
+                    app:bsb_seek_step_section="true"
+                    app:bsb_show_section_mark="true"
+                    app:bsb_show_section_text="true"
+                    app:bsb_show_thumb_text="true"
+                    app:bsb_thumb_text_size="18sp"
+                    app:bsb_touch_to_seek="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewAv4" />
+
+
+
+
+                <TextView
+                    android:id="@+id/textViewAv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text="Descanso e sono"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bubbleSeekBarAv4" />
+
+                <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/bubbleSeekBarAv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:bsb_auto_adjust_section_mark="true"
+                    app:bsb_hide_bubble="true"
+                    app:bsb_second_track_color="@color/laranja_relatorio"
+                    app:bsb_max="5"
+                    app:bsb_min="1"
+                    app:bsb_section_count="4"
+                    app:bsb_section_text_position="below_section_mark"
+                    app:bsb_seek_step_section="true"
+                    app:bsb_show_section_mark="true"
+                    app:bsb_show_section_text="true"
+                    app:bsb_show_thumb_text="true"
+                    app:bsb_thumb_text_size="18sp"
+                    app:bsb_touch_to_seek="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewAv6" />
+
+                <TextView
+                    android:id="@+id/textViewAv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text="Brincar e jogar"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bubbleSeekBarAv6" />
+
+                <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/bubbleSeekBarAv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:bsb_auto_adjust_section_mark="true"
+                    app:bsb_hide_bubble="true"
+                    app:bsb_second_track_color="@color/laranja_relatorio"
+                    app:bsb_max="5"
+                    app:bsb_min="1"
+                    app:bsb_section_count="4"
+                    app:bsb_section_text_position="below_section_mark"
+                    app:bsb_seek_step_section="true"
+                    app:bsb_show_section_mark="true"
+                    app:bsb_show_section_text="true"
+                    app:bsb_show_thumb_text="true"
+                    app:bsb_thumb_text_size="18sp"
+                    app:bsb_touch_to_seek="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewAv7" />
+
+                <TextView
+                    android:id="@+id/textViewAv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text="Higiene pessoal"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="8pt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bubbleSeekBarAv7" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text=" (lavar os dentes, cortar as unhas, lavar as mãos, colocar creme, cortar o cabelo)"
+                    android:gravity="center"
+                    android:textColor="@color/cinza_titulos"
+                    android:textSize="5pt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textViewAv5" />
+
+
+                <com.xw.repo.BubbleSeekBar
+                    android:id="@+id/bubbleSeekBarAv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bsb_auto_adjust_section_mark="true"
+                    app:bsb_hide_bubble="true"
+                    app:bsb_max="5"
+                    app:bsb_min="1"
+                    app:bsb_second_track_color="@color/laranja_relatorio"
+                    app:bsb_section_count="4"
+                    app:bsb_section_text_position="below_section_mark"
+                    app:bsb_seek_step_section="true"
+                    app:bsb_show_section_mark="true"
+                    app:bsb_show_section_text="true"
+                    app:bsb_show_thumb_text="true"
+                    app:bsb_thumb_text_size="18sp"
+                    app:bsb_touch_to_seek="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+                <TextView
+                    android:id="@+id/textViewRSComentarios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text="Comentários Adicionais"
+                    android:textColor="@android:color/black"
+                    android:textSize="12pt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/bubbleSeekBarAv5"/>
+
+                <EditText
+                    android:id="@+id/editTextRSComentario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/shape_rect_white_shade"
+                    android:fontFamily="@font/noto_sans"
+                    android:gravity="left"
+                    android:hint="Inserir comentários adicionais... \n"
+                    android:inputType="text|textMultiLine|textCapSentences"
+                    android:padding="10dp"
+                    android:textSize="7pt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewRSComentarios" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnEnviarRelatorioSemana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/shape_rect_white_shade"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:padding="10dp"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="30dp"
+                    android:text="Enviar"
+                    android:textAllCaps="false"
+                    android:textSize="8pt"
+                    android:layout_marginTop="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextRSComentario" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <include
+            android:id="@+id/toolbarRelatorioSemanal"
+            layout="@layout/toolbar" />
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_relatorio_semanal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

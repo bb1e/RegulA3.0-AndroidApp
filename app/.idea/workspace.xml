@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2db05804-d1f8-410a-b0dd-ee4b04121a4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/My_Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules/My_Application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/pt/pl/estg/ei/myapplication/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/pt/pl/estg/ei/myapplication/BuildConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/androidTest/java/pt/pl/estg/ei/myapplication/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidTest/java/pt/pl/estg/ei/myapplication/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/AddCrianca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/AddCrianca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/AreaEstrategia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/AreaEstrategia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/AreaFeedbackEstrategiaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/AreaFeedbackEstrategiaActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/EstrategiasPreferidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/EstrategiasPreferidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/FeedbackEstrategiaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/FeedbackEstrategiaActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/GlobalSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/GlobalSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/HistoricoAtividadeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/HistoricoAtividadeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/HomePageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/HomePageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/LineChartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/LineChartActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/ListaEstrategias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/ListaEstrategias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/MenuEscolherCrianca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/MenuEscolherCrianca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/MenuOcupacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/MenuOcupacoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/MenuOcupacoesSubcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/MenuOcupacoesSubcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/ProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/ProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/RelatorioSemanalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/RelatorioSemanalActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/AreasEstrategiasAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/AreasEstrategiasAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/EstrategiasFavoritasAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/EstrategiasFavoritasAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/HistoricoFeedbackAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/HistoricoFeedbackAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/ListaContactosAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/ListaContactosAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/MyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/MyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/MyAppGlideModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/MyAppGlideModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/ProfileAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/ProfileAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/ProfileEstatisticaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/adapters/ProfileEstatisticaAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/ChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/ChatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/ChatProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/ChatProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/ChatsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/ChatsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/ContactsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/ContactsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/FindFriendsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/FindFriendsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/FindTerapeutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/FindTerapeutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/MainChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/MainChatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/MessageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/MessageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/RequestsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/RequestsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/SettingsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/SettingsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/TabsAccessorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/chat/TabsAccessorAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/ClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/ClickListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Crianca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Crianca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Dia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Dia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Estrategia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Estrategia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/FeedbackEstrategia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/FeedbackEstrategia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/FeedbackEstrategiaDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/FeedbackEstrategiaDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Horario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/MyListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/MyListView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/RelatorioSemanal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/RelatorioSemanal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Terapeuta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/classes/Terapeuta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/enums/AreasOcupacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/enums/AreasOcupacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/enums/BD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/enums/BD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/enums/DiaDaSemana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/enums/DiaDaSemana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/enums/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/enums/Genero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/enums/TipoAlvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/enums/TipoAlvo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/MessageThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/MessageThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/MessagesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/MessagesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/NewThreadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/NewThreadActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/PersonalThreadsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/PersonalThreadsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/PersonalThreadsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/PersonalThreadsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/ThreadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/ThreadActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/ThreadsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/ThreadsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/ThreadsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pt/pl/estg/ei/myapplication/forum/ThreadsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/smiley_meh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/smiley_meh.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/smiley_sad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/smiley_sad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/smiley_smile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-xxxhdpi/smiley_smile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/add_button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/add_button.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ao_avd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ao_avd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ao_brincar_jogar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ao_brincar_jogar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ao_dormir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ao_dormir.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ao_estrategias_regulatorias.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ao_estrategias_regulatorias.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/avatar_border.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/avatar_border.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/avd_alimentacao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/avd_alimentacao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/avd_cortar_cabelo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/avd_cortar_cabelo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/avd_cortar_unhas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/avd_cortar_unhas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/avd_creme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/avd_creme.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/avd_higiene_sanitaria.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/avd_higiene_sanitaria.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/avd_lavar_dentes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/avd_lavar_dentes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/avd_lavar_maos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/avd_lavar_maos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/avd_tomar_banho.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/avd_tomar_banho.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/avd_vestir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/avd_vestir.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bellow_toolbar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/bellow_toolbar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/custom_button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/custom_button.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/custom_button_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/custom_button_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/custom_button_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/custom_button_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/custom_heart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/custom_heart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/custom_heart_filled.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/custom_heart_filled.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/custom_homepage_button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/custom_homepage_button.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/custom_oval.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/custom_oval.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/custom_oval_grey.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/custom_oval_grey.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/custom_shape_add_crianca.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/custom_shape_add_crianca.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/default_profile_pic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/default_profile_pic.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/edittext_style.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/edittext_style.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/estrela.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/estrela.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/feedback_button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/feedback_button.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/feedback_button_old.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/feedback_button_old.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_add_btn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_add_btn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_comentario_style.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_comentario_style.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_comments.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_comments.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_delete.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_delete.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_dot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_dot.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_downvote.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_downvote.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_messages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_messages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_moldura.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_moldura.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_moldura2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_moldura2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_moldura3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_moldura3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_moldura_titulo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_moldura_titulo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_moldura_titulo2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_moldura_titulo2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_notifications.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_notifications.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_personal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_personal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_send.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_send.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_upvote.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_upvote.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_verified_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_verified_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/forum_views.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/forum_views.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/fundo_forum.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/fundo_forum.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/fundo_forum2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/fundo_forum2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_baseline_arrow_back_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_baseline_arrow_back_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_baseline_check_circle_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_baseline_check_circle_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_baseline_menu_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_baseline_menu_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_happy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_happy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/ic_time.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_time.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/line.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/line.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/lista_estrategias_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/lista_estrategias_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/lv_profile_open.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/lv_profile_open.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_add_crianca.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_add_crianca.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_definicoes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_definicoes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_estrela.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_estrela.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_feedback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_feedback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_forum.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_forum.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_lista.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_lista.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_logout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_logout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_registo_semanal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_registo_semanal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/menu_trocar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/menu_trocar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/messagelistview_shape.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/messagelistview_shape.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/neutro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/neutro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/oval_shape.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/oval_shape.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/profile_auditivo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/profile_auditivo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/profile_gustativo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/profile_gustativo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/profile_olfativo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/profile_olfativo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/profile_propriocetivo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/profile_propriocetivo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/profile_ss_tracejado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/profile_ss_tracejado.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/profile_ss_verde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/profile_ss_verde.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/profile_tatil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/profile_tatil.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/profile_vestibular.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/profile_vestibular.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/profile_visual.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/profile_visual.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/radio_normal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/radio_normal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/radio_normal_canto_direito.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/radio_normal_canto_direito.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/radio_normal_canto_esquerdo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/radio_normal_canto_esquerdo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/radio_selecionado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/radio_selecionado.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/radio_selecionado_canto_direito.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/radio_selecionado_canto_direito.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/radio_selecionado_canto_esquerdo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/radio_selecionado_canto_esquerdo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/radio_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/radio_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/radio_selector_canto_direito.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/radio_selector_canto_direito.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/radio_selector_canto_esquerdo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/radio_selector_canto_esquerdo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/radio_txt_color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/radio_txt_color.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/rounded_text.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/rounded_text.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/shape_rect_amarelo_shade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/shape_rect_amarelo_shade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/shape_rect_azul_shade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/shape_rect_azul_shade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/shape_rect_cinza_shade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/shape_rect_cinza_shade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/shape_rect_rosa_shade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/shape_rect_rosa_shade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/shape_rect_white_shade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/shape_rect_white_shade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/sono_participacao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/sono_participacao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/sono_preparacao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/sono_preparacao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/stock_profile_sized.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/stock_profile_sized.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/threadlistview_shape.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/threadlistview_shape.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/toolbar_seguinte.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/toolbar_seguinte.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/toolbar_tras.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/toolbar_tras.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/tracejado_amarelo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/tracejado_amarelo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/tracejado_azul.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/tracejado_azul.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/tracejado_azul2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/tracejado_azul2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/tracejado_azul3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/tracejado_azul3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/tracejado_cinza.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/tracejado_cinza.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/tracejado_neutro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/tracejado_neutro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/tracejado_rosa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/tracejado_rosa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/tracejado_roxo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/tracejado_roxo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/tracejado_verde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/tracejado_verde.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/font/combo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/font/combo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/font/noto_sans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/font/noto_sans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/font/noto_sans_bold.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/font/noto_sans_bold.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_add_crianca.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_add_crianca.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_area_estrategia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_area_estrategia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_area_feedback_estrategia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_area_feedback_estrategia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_areas_ocupacao_subcat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_areas_ocupacao_subcat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_feedback_estrategia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_feedback_estrategia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_find_friends.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_find_friends.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_forum.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_forum.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_historico_atividade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_historico_atividade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_homepage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_homepage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_line_chart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_line_chart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_lista_estrategias.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_lista_estrategias.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login_email.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login_email.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_menu_escolher_crianca.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_menu_escolher_crianca.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_menu_estrategias.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_menu_estrategias.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_menu_ocupacao_avd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_menu_ocupacao_avd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_menu_ocupacao_descanso.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_menu_ocupacao_descanso.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_my_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_my_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_new_thread.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_new_thread.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_personal_threads.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_personal_threads.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_profile_chat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_profile_chat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_register_dados.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register_dados.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_register_email.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register_email.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_register_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_relatorio_semanal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_relatorio_semanal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_threads.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_threads.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_verification_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_verification_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/areas_estrategias_listview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/areas_estrategias_listview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/card_item2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/card_item2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/custom_chat_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/custom_chat_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/custom_listview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/custom_listview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_chats.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_chats.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_contacts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_requests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_requests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/header.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/messages_listview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/messages_listview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/profile_button_f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/profile_button_f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/profile_estatisticas_listview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/profile_estatisticas_listview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/threads_listview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/threads_listview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/toolbar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/toolbar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/toolbar_homepage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/toolbar_homepage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/users_display_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/users_display_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/menu/activity_chat_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/menu/activity_chat_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/menu/main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/menu/main_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_mini_logo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_mini_logo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_mini_logo_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/mipmap-anydpi-v26/ic_mini_logo_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/font_certs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/ic_mini_logo_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/ic_mini_logo_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/preloaded_fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pt/pl/estg/ei/myapplication/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pt/pl/estg/ei/myapplication/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sdk-firebase-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-sdk-firebase-master/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sdk-firebase-master/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-sdk-firebase-master/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sdk-firebase-master/database.rules.bolt" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-sdk-firebase-master/database.rules.bolt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sdk-firebase-master/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-sdk-firebase-master/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sdk-firebase-master/storage.rules" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-sdk-firebase-master/storage.rules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smilerating/BaseRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smilerating/BaseRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smilerating/FractionEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smilerating/FractionEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smilerating/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smilerating/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smilerating/SmileRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smilerating/SmileRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/SmileyRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/SmileyRating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/helper/SmileyActiveIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/helper/SmileyActiveIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/helper/TouchActiveIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/helper/TouchActiveIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/Bad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/Bad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/Good.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/Great.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/Great.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/Okay.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/Okay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/Terrible.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/Terrible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/base/Smiley.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/java/com/hsalf/smileyrating/smileys/base/Smiley.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smilerating/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smilerating/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stylesNeeded" beforeDir="false" afterPath="$PROJECT_DIR$/../stylesNeeded" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="26GHnEUObMNPblAS3JYWjpNczRU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2db05804-d1f8-410a-b0dd-ee4b04121a4b" name="Default Changelist" comment="" />
+      <created>1647043170215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647043170215</updated>
+    </task>
+    <servers />
+  </component>
+</project>

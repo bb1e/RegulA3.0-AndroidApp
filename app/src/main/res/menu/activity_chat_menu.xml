@@ -1,0 +1,56 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_estrategias"
+            android:icon="@drawable/menu_lista"
+            android:title="Estratégias"/>
+        <item
+            android:id="@+id/nav_estrategias_fav"
+            android:icon="@drawable/menu_estrela"
+            android:title="Estratégias Favoritas"/>
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/menu_chat"
+            android:title="Chat"/>
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/menu_forum"
+            android:title="Fórum"/>
+        <item
+            android:id="@+id/nav_registo_semanal"
+            android:icon="@drawable/menu_registo_semanal"
+            android:title="Registo Semanal"/>
+
+    </group>
+
+    <item android:title="Chat">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_perfil_chat"
+                    android:icon="@drawable/menu_home"
+                    android:title="Perfil"/>
+                <item
+                    android:id="@+id/nav_terapeutas"
+                    android:icon="@drawable/menu_add_crianca"
+                    android:title="Encontrar Terapeuta"/>
+                <item
+                    android:id="@+id/nav_amigos"
+                    android:icon="@drawable/menu_add_crianca"
+                    android:title="Encontrar Amigos"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/menu_logout"
+                    android:title="Sair da conta"/>
+            </group>
+        </menu>
+    </item>
+</menu>

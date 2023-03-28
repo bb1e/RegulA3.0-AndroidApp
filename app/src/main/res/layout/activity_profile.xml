@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde_toolbar_avd"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbarProfile"
+            android:fillViewport="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bellow_toolbar"
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                tools:context=".ProfileActivity">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layoutParentDashboard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".ProfileActivity">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/layoutTopBtns"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <lib.kingja.switchbutton.SwitchMultiButton
+                            android:id="@+id/btnSelecionarLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:padding="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:selectedColor="@color/verde_toolbar_avd"
+                            app:selectedTab="0"
+                            app:strokeRadius="14dp"
+                            app:strokeWidth="0.5dp"
+                            app:textSize="9pt" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/profileInfoLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/layoutTopBtns">
+
+                        <LinearLayout
+                            android:id="@+id/layoutNomeFoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/btnProfileProfile"
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:background="@drawable/custom_oval"
+                                android:fontFamily="@font/noto_sans_bold"
+                                android:gravity="bottom|center"
+                                android:src="@drawable/stock_profile_sized"
+                                android:text="Mudar"
+                                android:textColor="@color/cinza_titulos"
+                                android:textSize="6pt"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.075"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/btnSelecionarLayout" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="50dp"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txtName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/noto_sans_bold"
+                                    android:gravity="center"
+                                    android:text="Nome Apelido"
+                                    android:textColor="@color/black"
+                                    android:textSize="11pt" />
+
+                                <TextView
+                                    android:id="@+id/txtIdade"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/noto_sans"
+                                    android:text="x Anos"
+                                    android:textSize="10pt"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toEndOf="@+id/btnProfileProfile"
+                                    app:layout_constraintTop_toBottomOf="@+id/txtName" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutSSTatil"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais">
+
+                            <TextView
+                                android:id="@+id/txtSSTituloTatil"
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/profile_ss_verde"
+                                android:drawableLeft="@drawable/profile_tatil"
+                                android:fontFamily="@font/noto_sans_bold"
+                                android:gravity="center"
+                                android:paddingStart="20dp"
+                                android:text="Tátil"
+                                android:textColor="@color/white"
+                                android:textSize="6pt"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+                            <TextView
+                                android:id="@+id/txtSSTatil"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="-15dp"
+                                android:background="@drawable/profile_ss_tracejado"
+                                android:fontFamily="@font/noto_sans"
+                                android:gravity="center"
+                                android:paddingStart="15dp"
+                                android:text="Hiper-reatividade"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutSSAuditivo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayoutSSTatil">
+
+                            <TextView
+                                android:id="@+id/txtSSTituloAuditivo"
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/profile_ss_verde"
+                                android:drawableLeft="@drawable/profile_auditivo"
+                                android:fontFamily="@font/noto_sans_bold"
+                                android:gravity="center"
+                                android:paddingStart="20dp"
+                                android:text="Auditivo"
+                                android:textColor="@color/white"
+                                android:textSize="6pt"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+                            <TextView
+                                android:id="@+id/txtSSAuditivo"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="-15dp"
+                                android:background="@drawable/profile_ss_tracejado"
+                                android:fontFamily="@font/noto_sans"
+                                android:gravity="center"
+                                android:paddingStart="15dp"
+                                android:text="Hiper-reatividade"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutSSVisual"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayoutSSAuditivo">
+
+                            <TextView
+                                android:id="@+id/txtSSTituloVisual"
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/profile_ss_verde"
+                                android:drawableLeft="@drawable/profile_visual"
+                                android:fontFamily="@font/noto_sans_bold"
+                                android:gravity="center"
+                                android:paddingStart="20dp"
+                                android:text="Visual"
+                                android:textColor="@color/white"
+                                android:textSize="6pt"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+                            <TextView
+                                android:id="@+id/txtSSVisual"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="-15dp"
+                                android:background="@drawable/profile_ss_tracejado"
+                                android:fontFamily="@font/noto_sans"
+                                android:gravity="center"
+                                android:paddingStart="15dp"
+                                android:text="Hiper-reatividade"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutSSOlfativo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayoutSSVisual">
+
+                            <TextView
+                                android:id="@+id/txtSSTituloOlfativo"
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/profile_ss_verde"
+                                android:drawableLeft="@drawable/profile_olfativo"
+                                android:fontFamily="@font/noto_sans_bold"
+                                android:gravity="center"
+                                android:paddingStart="20dp"
+                                android:text="Olfativo"
+                                android:textColor="@color/white"
+                                android:textSize="6pt"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+                            <TextView
+                                android:id="@+id/txtSSOlfativo"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="-15dp"
+                                android:background="@drawable/profile_ss_tracejado"
+                                android:fontFamily="@font/noto_sans"
+                                android:gravity="center"
+                                android:paddingStart="15dp"
+                                android:text="Hiper-reatividade"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutSSGustativo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayoutSSOlfativo">
+
+                            <TextView
+                                android:id="@+id/txtSSTituloGustativo"
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/profile_ss_verde"
+                                android:drawableLeft="@drawable/profile_gustativo"
+                                android:fontFamily="@font/noto_sans_bold"
+                                android:gravity="center"
+                                android:paddingStart="20dp"
+                                android:text="Gustativo"
+                                android:textColor="@color/white"
+                                android:textSize="6pt"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+                            <TextView
+                                android:id="@+id/txtSSGustativo"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="-15dp"
+                                android:background="@drawable/profile_ss_tracejado"
+                                android:fontFamily="@font/noto_sans"
+                                android:gravity="center"
+                                android:paddingStart="15dp"
+                                android:text="Hiper-reatividade"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutSSPropriocetivo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayoutSSGustativo">
+
+                            <TextView
+                                android:id="@+id/txtSSTituloPropriocetivo"
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/profile_ss_verde"
+                                android:drawableLeft="@drawable/profile_propriocetivo"
+                                android:fontFamily="@font/noto_sans_bold"
+                                android:gravity="center"
+                                android:paddingStart="20dp"
+                                android:text="Propriocetivo"
+                                android:textColor="@color/white"
+                                android:textSize="6pt"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+                            <TextView
+                                android:id="@+id/txtSSPropriocetivo"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="-15dp"
+                                android:background="@drawable/profile_ss_tracejado"
+                                android:fontFamily="@font/noto_sans"
+                                android:gravity="center"
+                                android:paddingStart="15dp"
+                                android:text="Hiper-reatividade"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutSSVestibular"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayoutSSPropriocetivo">
+
+                            <TextView
+                                android:id="@+id/txtSSTituloVestibular"
+                                android:layout_width="140dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/profile_ss_verde"
+                                android:drawableLeft="@drawable/profile_vestibular"
+                                android:fontFamily="@font/noto_sans_bold"
+                                android:gravity="center"
+                                android:paddingStart="20dp"
+                                android:text="Vestibular"
+                                android:textColor="@color/white"
+                                android:textSize="6pt"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+                            <TextView
+                                android:id="@+id/txtSSVestibular"
+                                android:layout_width="200dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="-15dp"
+                                android:background="@drawable/profile_ss_tracejado"
+                                android:fontFamily="@font/noto_sans"
+                                android:gravity="center"
+                                android:paddingStart="15dp"
+                                android:text="Hiper-reatividade"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textViewSistemasSensoriais" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textViewReatividadeSensorial"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/noto_sans_bold"
+                            android:text="Reatividade Sensorial"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12pt"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/layoutNomeFoto" />
+
+                        <TextView
+                            android:id="@+id/textViewReatividadeSensorialInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/noto_sans"
+                            android:text="Define como a criança responde aos estímulos sensoriais do ambiente consoante os vários sistemas sensoriais"
+                            android:textColor="@color/black"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewReatividadeSensorial" />
+
+                        <TextView
+                            android:id="@+id/textViewSistemasSensoriais"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/noto_sans"
+                            android:text="Sistemas Sensoriais"
+                            android:textAlignment="center"
+                            android:textColor="@color/verde_toolbar_avd"
+                            android:textSize="11pt"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewReatividadeSensorialInfo" />
+
+                        <TextView
+                            android:id="@+id/textInfoHiper"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/noto_sans"
+                            android:text="* Hiper-reatividade - resposta excessiva aos estímulos sensoriais"
+                            android:textColor="@color/black"
+                            android:textSize="4pt"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayoutSSVestibular" />
+
+                        <TextView
+                            android:id="@+id/textInfoHipo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/noto_sans"
+                            android:text="* Hipo-reatividade - ausência ou diminuição de resposta aos estímulos sensoriais"
+                            android:textColor="@color/black"
+                            android:textSize="4pt"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textInfoHiper" />
+
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="25dp"
+                            android:fontFamily="@font/noto_sans_bold"
+                            android:text="Comentários Adicionais"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="12pt"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textInfoHipo" />
+
+                        <TextView
+                            android:id="@+id/txtAvaliacao"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/tracejado_verde"
+                            android:fontFamily="@font/noto_sans"
+                            android:padding="10dp"
+                            android:text="Aqui estará um resumo ou comentários adicionais feitos pelo terapeuta responsável pela criança"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="6pt"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView3"
+                            app:layout_constraintVertical_bias="0" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/layoutDashboard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/layoutTopBtns">
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutQtdRelatorios"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/TextViewTituloPE2">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/noto_sans_bold"
+                                android:gravity="center"
+                                android:text="Relatórios semanais enviados: "
+                                android:textColor="@android:color/black"
+                                android:textSize="7pt" />
+
+                            <TextView
+                                android:id="@+id/textViewQtdRelatorios"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/noto_sans"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="7pt" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutMediaRelatorios"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/linearLayoutQtdRelatorios">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/tracejado_amarelo"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <ImageView
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:gravity="center"
+                                        android:src="@drawable/avd_img_tomar_banho" />
+
+                                    <TextView
+                                        android:id="@+id/textViewMediaAv1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/noto_sans"
+                                        android:text="0"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="6pt" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
+                                    android:background="@drawable/tracejado_rosa"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <ImageView
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:gravity="center"
+                                        android:src="@drawable/avd_vestir" />
+
+                                    <TextView
+                                        android:id="@+id/textViewMediaAv2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/noto_sans"
+                                        android:text="0"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="6pt" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
+                                    android:background="@drawable/tracejado_azul2"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <ImageView
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:gravity="center"
+                                        android:src="@drawable/avd_img_alimentacao" />
+
+                                    <TextView
+                                        android:id="@+id/textViewMediaAv3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/noto_sans"
+                                        android:text="0"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="6pt" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
+                                    android:background="@drawable/tracejado_cinza"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <ImageView
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:gravity="center"
+                                        android:src="@drawable/avd_img_higiente_sanitaria" />
+
+                                    <TextView
+                                        android:id="@+id/textViewMediaAv4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/noto_sans"
+                                        android:text="0"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="6pt" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
+                                    android:background="@drawable/tracejado_azul3"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <ImageView
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:gravity="center"
+                                        android:src="@drawable/avd_img_lavar_maos" />
+
+                                    <TextView
+                                        android:id="@+id/textViewMediaAv5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/noto_sans"
+                                        android:text="0"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="6pt" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
+                                    android:background="@drawable/tracejado_verde"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <ImageView
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:gravity="center"
+                                        android:src="@drawable/ao_dormir_img" />
+
+                                    <TextView
+                                        android:id="@+id/textViewMediaAv6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/noto_sans"
+                                        android:text="0"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="6pt" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
+                                    android:background="@drawable/tracejado_roxo"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <ImageView
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:gravity="center"
+                                        android:src="@drawable/ao_brincar_jogar_img" />
+
+                                    <TextView
+                                        android:id="@+id/textViewMediaAv7"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/noto_sans"
+                                        android:text="0"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="6pt" />
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textViewMediaEstatisticas"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/noto_sans_bold"
+                                android:gravity="center"
+                                android:text="Média das Avaliações"
+                                android:textColor="@android:color/black"
+                                android:textSize="7pt" />
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/btnVerGraph"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/shape_rect_white_shade"
+                                android:fontFamily="@font/noto_sans_bold"
+                                android:padding="5dp"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="Gráficos de progresso"
+                                android:textAllCaps="false"
+                                android:textSize="6pt"
+                                android:visibility="gone"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/linearLayoutMediaRelatorios" />
+
+
+                        </LinearLayout>
+
+                        <ListView
+                            android:id="@+id/listViewHistoricoComentariosRelatorio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="220dp"
+                            android:layout_marginTop="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewHistoricoComentariosRTitulo" />
+
+                        <TextView
+                            android:id="@+id/TextViewTituloPE1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/noto_sans_bold"
+                            android:text="Top 5 Estratégias"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="10pt"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/txtExplicacao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="@font/noto_sans"
+                            android:text="(*) Estratégias com mais feedback recebido"
+                            android:textColor="@color/black"
+                            android:textSize="5pt"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/TextViewTituloPE1" />
+
+                        <TextView
+                            android:id="@+id/textViewHistoricoComentariosRTitulo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/noto_sans_bold"
+                            android:gravity="center|center_vertical"
+                            android:text="Histórico de Comentários"
+                            android:textColor="@android:color/black"
+                            android:textSize="7pt"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/linearLayoutMediaRelatorios" />
+
+                        <TextView
+                            android:id="@+id/TextViewTituloPE2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/noto_sans_bold"
+                            android:text="Relatórios Semanais"
+                            android:textColor="@color/black"
+                            android:textSize="10pt"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/btnVerHistoricofeedback" />
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnVerHistoricofeedback"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/shape_rect_white_shade"
+                            android:fontFamily="@font/noto_sans_bold"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:text="Histórico de feedback"
+                            android:textAllCaps="false"
+                            android:textSize="6pt"
+                            android:visibility="gone"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/listViewPEListaEstrategias" />
+
+                        <pt.pl.estg.ei.regulapp.classes.MyListView
+                            android:id="@+id/listViewPEListaEstrategias"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/txtExplicacao" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layoutParentHistorico"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    tools:context=".ProfileActivity">
+
+
+                    <LinearLayout
+                        android:id="@+id/layoutHistoricoFeedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <ListView
+                            android:id="@+id/lvHistoricoFeedbacks"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/btnVoltarDashboard" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnVoltarDashboard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="0"
+                            android:background="@drawable/profile_ss_verde"
+                            android:fontFamily="@font/noto_sans_bold"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:text="Voltar ao dashboard"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="6pt"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </ScrollView>
+
+        <include
+            android:id="@+id/toolbarProfile"
+            layout="@layout/toolbar" />
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

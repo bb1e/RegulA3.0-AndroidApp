@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bottom 2dp Shadow -->
+    <item android:left="3dp" android:top="4dp">
+        <shape  android:shape="oval">
+            <solid android:color="#d8d8d8" />
+            <size
+                android:width="185dp"
+                android:height="185dp"
+                />
+        </shape>
+    </item>
+
+    <!-- White Top color -->
+    <item >
+        <shape  android:shape="oval">
+            <solid android:color="@color/verde_homepage_profile" />
+            <size
+                android:width="180dp"
+                android:height="180dp"
+                />
+        </shape>
+    </item>
+
+
+</layer-list>

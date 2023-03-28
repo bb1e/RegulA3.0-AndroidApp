@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vermelho_chat"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbarProfile"
+            android:fillViewport="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bellow_toolbar"
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                tools:context=".ProfileActivity">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/visit_profile_image"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="60dp"
+                        android:src="@drawable/default_profile_picture"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentTop="true"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/visit_user_name"
+                        android:text="User Name"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="12pt"
+                        android:fontFamily="@font/noto_sans_bold"
+                        android:layout_below="@id/visit_profile_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        />
+
+                    <EditText
+                        android:id="@+id/profileUserName"
+                        android:text="User Name"
+                        android:inputType="textNoSuggestions"
+                        android:background="@null"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="12pt"
+                        android:fontFamily="@font/noto_sans_bold"
+                        android:layout_below="@id/visit_profile_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/visit_age"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visit_user_name"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+
+                        android:fontFamily="@font/noto_sans"
+                        android:gravity="center_horizontal"
+                        android:text="idade"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/black"
+                        android:textSize="10pt"
+                        android:visibility="invisible"/>
+                    <TextView
+                        android:id="@+id/descriptionTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/visit_age"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+
+                        android:fontFamily="@font/noto_sans"
+                        android:gravity="center_horizontal"
+                        android:text="Simple description for terapeut"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/black"
+                        android:textSize="8pt"
+                        android:visibility="gone"
+                        />
+
+                    <Button
+                        android:id="@+id/send_message_request_button"
+                        android:layout_below="@id/descriptionTV"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textAllCaps="false"
+                        android:background="@color/vermelho_chat"
+
+                        android:text="  Enviar Pedido  "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/save"
+                        android:layout_below="@id/descriptionTV"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textAllCaps="false"
+                        android:background="@color/vermelho_chat"
+
+                        android:text="  Salvar  "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"/>
+
+                    <Button
+                        android:id="@+id/decline_message_request_button"
+                        android:layout_below="@id/send_message_request_button"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textAllCaps="false"
+                        android:background="@color/vermelho_chat"
+                        android:text="  Cancel Chat Request  "
+                        android:layout_width="wrap_content"
+                        android:visibility="invisible"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layoutParentHistorico"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    tools:context=".ProfileActivity">
+
+
+                    <LinearLayout
+                        android:id="@+id/layoutHistoricoFeedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <ListView
+                            android:id="@+id/lvHistoricoFeedbacks"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/btnVoltarDashboard" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnVoltarDashboard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="0"
+                            android:background="@drawable/profile_ss_verde"
+                            android:fontFamily="@font/noto_sans_bold"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="10dp"
+                            android:text="Voltar ao dashboard"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="6pt"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </ScrollView>
+
+        <include
+            android:id="@+id/toolbarProfile"
+            layout="@layout/toolbar" />
+    </RelativeLayout>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

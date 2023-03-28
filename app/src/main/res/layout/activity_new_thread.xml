@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout_add_thread"
+    android:background="@color/azul_forum"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".forum.NewThreadActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp"
+            android:paddingBottom="30dp"
+            android:paddingTop="10dp"
+            android:layout_below="@id/toolbarAddThread"
+            android:background="@drawable/fundo_forum2">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text="Título"
+                    android:textColor="@color/cinza_titulos"
+                    android:textSize="8pt"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/forumNewTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:hint="Insira um título para a publicação"
+                    android:textColor="@color/black"
+                    android:textSize="7pt"
+                    app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text="Descrição"
+                    android:textColor="@color/cinza_titulos"
+                    android:textSize="8pt"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/forumNewTitulo" />
+
+                <EditText
+                    android:id="@+id/forumNewDescricao"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:fontFamily="@font/noto_sans"
+                    android:gravity="left"
+                    android:hint="Descrição da sua publicação"
+                    android:inputType="text|textMultiLine|textCapSentences"
+                    android:textColor="@color/black"
+                    android:textSize="6pt"
+                    app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/forumPublicarBtn"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Publicar"
+                        android:paddingStart="25dp"
+                        android:paddingEnd="25dp"
+                        android:textColor="@color/white"
+                        android:textSize="6pt"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/noto_sans_bold"
+                        android:background="@drawable/custom_button_register"
+                        android:backgroundTint="@color/azul_forum"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"/>
+                </LinearLayout>
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <include
+            android:id="@+id/toolbarAddThread"
+            layout="@layout/toolbar"
+            />
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_add_thread"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

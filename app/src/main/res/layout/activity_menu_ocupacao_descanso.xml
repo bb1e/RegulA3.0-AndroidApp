@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/amarelo_estrategias"
+    android:id="@+id/drawer_layout_descanso"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:fillViewport="true"
+            android:layout_below="@id/toolbarDescanso">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/background_white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bellow_toolbar"
+                android:padding="30dp"
+                android:layout_marginTop="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toolbarDescanso">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnAVD1"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:background="@drawable/shape_rect_white_shade"
+                    android:drawableTop="@drawable/sono_preparacao"
+                    android:padding="10dp"
+                    android:shadowColor="#191515"
+                    android:text="Preparação do sono "
+                    android:textColor="@android:color/black"
+                    android:textSize="10pt"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/noto_sans"
+                    tools:ignore="MissingConstraints" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnAVD2"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginTop="30dp"
+                    android:padding="10dp"
+                    android:background="@drawable/shape_rect_white_shade"
+                    android:drawableTop="@drawable/sono_participacao"
+                    android:shadowColor="#191515"
+                    android:text="Participação do sono"
+                    android:textColor="@android:color/black"
+                    android:textSize="10pt"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/noto_sans"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnAVD1"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+        <include
+            android:id="@+id/toolbarDescanso"
+            layout="@layout/toolbar" />
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_descanso"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+
+
+
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+

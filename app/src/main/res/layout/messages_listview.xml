@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/forum_moldura3"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/layoutTempoCom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/forum_moldura_titulo2"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:layout_marginStart="3dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/verifiedUser"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:src="@drawable/forum_verified_user"/>
+
+            <TextView
+                android:id="@+id/forumAutorComentario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="4pt"
+                android:fontFamily="@font/noto_sans_bold"
+                android:text="Nome do autor"/>
+
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:src="@drawable/forum_dot"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                app:tint="@color/cinza_titulos"
+                />
+
+            <TextView
+                android:id="@+id/messageTimeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="4pt"
+                android:fontFamily="@font/noto_sans_bold"
+                android:text="" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/deleteMessageButton"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end|center_vertical"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/deleteMessage"
+            app:srcCompat="@drawable/forum_delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutComentarioComScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutTempoCom">
+
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/messageTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:paddingStart="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="5pt"
+            android:gravity="center_vertical"
+            android:textColor="@color/cinza_titulos"
+            android:fontFamily="@font/noto_sans"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/layoutTempoCom"
+            android:text="" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

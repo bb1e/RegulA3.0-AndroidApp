@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout_area_publicacao"
+    android:background="@color/azul_forum"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".forum.ThreadActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbarAreaPublicacao"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/fundo_forum2"
+            android:padding="10dp"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/verifiedUser"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:src="@drawable/forum_verified_user"/>
+
+                <TextView
+                    android:id="@+id/forumAutor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/noto_sans_bold"
+                    android:text="Nome do autor"
+                    android:textSize="4pt" />
+
+
+                <ImageView
+                    android:layout_width="3dp"
+                    android:layout_height="3dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/forum_dot"
+                    app:tint="@color/cinza_titulos" />
+
+                <TextView
+                    android:id="@+id/forumThreadAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/noto_sans"
+                    android:text="x horas atrás"
+                    android:textSize="4pt" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/forum_moldura3"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearLayout10">
+
+                <LinearLayout
+                    android:id="@+id/linearlayout20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/forum_moldura_titulo"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/threadNameTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/noto_sans_bold"
+                        android:text=""
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="9pt"
+                        android:layout_weight="1"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/threadDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/noto_sans"
+                    android:text="descriçao da thread......\n \n \n \n \n \n fim."
+                    android:textColor="@color/cinza_titulos"
+                    android:textSize="6pt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/threadNameTV" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/noto_sans_bold"
+                android:text="Comentários"
+                android:textSize="8pt"
+                android:textColor="@color/cinza_titulos"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
+
+
+            <ListView
+                android:id="@+id/messagesLV"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="20dp"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="10dp">
+
+                <EditText
+                    android:id="@+id/newMessageET"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/messagesLV"
+                    android:layout_alignLeft="@+id/messagesLV"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toStartOf="@+id/sendButton"
+                    android:layout_toLeftOf="@+id/sendButton"
+                    android:layout_weight="1"
+                    android:background="@drawable/forum_comentario_style"
+                    android:ems="10"
+                    android:hint="Insira comentário..."
+                    android:inputType="textMultiLine|text"
+                    android:text=""
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/sendButton"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <ImageView
+                    android:id="@+id/sendButton"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/forum_send"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:tint="@color/azul_forum" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <include
+            android:id="@+id/toolbarAreaPublicacao"
+            layout="@layout/toolbar"
+            />
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_area_publicacao"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
